@@ -49,7 +49,7 @@
         }
         #map-tile {
             margin-left: 20px;
-            background: url('map.png');
+            background: url('map.jpeg');
         }
         #menu-tile span,#specials-tile span,#map-tile span {
             position: absolute;
