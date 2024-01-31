@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.jumbotron {
+			background-color: #f8f8f8;
+  			color: #1e1e1e;
+  			padding: 50px 0;
+  			text-align: center;
+  			margin-bottom: 20px;
+  		}
+
+		.well {
+			background-color: #fff;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			padding: 15px;
+		}
+
+		img {
+			max-width: 100%;
+  			height: auto;
+		}
+
+		.row {
+			margin: 0 -15px;
+		}
+
+		.col-lg-4,.col-md-6,.col-sm-12 {
+			padding: 0 15px;
+		}
+		.map-container {
+			height: 400px; 
+  			background-color: #f0f0f0;
+  			border: 1px solid #ddd;
+  			border-radius: 4px;
+  			margin: 20px auto;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<div class="jumbotron">
+			<h1>Our Menu</h1>
+			<p>Check out our delicious offerings!</p>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="well">
+					<h2>Appetizers</h2>
+					<p>Delicious starters to whet your appetite.</p>
+					<a href="#" onclick="$dc.loadMenuItems('Appetizers');">
+						<img src="appetizers.jpeg" alt="Appetizers">
+      				</a>
+    			</div>
+  			</div>
+  			<div class="col-lg-4 col-md-6 col-sm-12">
+  				<div class="well">
+  					<h2>Main Courses</h2>
+      				<p>Our hearty main dishes that will satisfy your hunger.</p>
+      				<a href="#" onclick="$dc.loadMenuItems('MainCourses');">
+      					<img src="main-courses.jpeg" alt="Main Courses">
+      				</a>
+    			</div>
+  			</div>
+  		<div class="col-lg-4 col-md-6 col-sm-12">
+  			<div class="well">
+  				<h2>Desserts</h2>
+      			<p>Sweet treats to end your meal on a high note.</p>
+      			<a href="#" onclick="$dc.loadMenuItems('Desserts');">
+      				<img src="desserts.jpeg" alt="Desserts">
+      			</a>
+    		</div>
+  		</div>
+		</div>
+	</center>
+</body>
+</html>
