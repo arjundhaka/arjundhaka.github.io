@@ -1,0 +1,93 @@
+.bg-yellow {
+            background-color: #ffc107;
+        }
+        body {
+            background-color: purple;
+        }
+        header {
+            padding-left: 50px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        h1 {
+            color: green;
+        }
+        .bg-yellow p {
+            color: black;
+        }
+        .visible-xs {
+            margin-top: 30px;
+            font-size: .7em;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+        .container .jumbotron {
+            box-shadow: 0 0 50px #3F01CF;
+            border: 2px solid #3F01CF;
+            background: url('chair.jpeg');
+        }
+        #menu-tile,#specials-tile,#map-tile {
+            height: 250px;
+            width: 100%;
+            margin-bottom: 15px;
+            position: relative;
+            border: 2px solid #3F01CF;
+            overflow: hidden;
+        }
+        #menu-tile:hover,#specials-tile:hover,#map-tile:hover {
+            box-shadow: 0 1px 5px 1px #cccccc;
+        }
+        #menu-tile {
+            margin-left: 20px;
+            background: url('food.jpeg');
+        }
+        #specials-tile {
+            margin-left: 20px;
+            background: url('food1.jpeg');
+        }
+        #map-tile {
+            margin-left: 20px;
+            background: url('map.png');
+        }
+        #menu-tile span,#specials-tile span,#map-tile span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            background-color: #000;
+            color: #fff;
+            opacity: .8;
+        }
+        @media (max-width: 479px) {
+            #menu-tile,#specials-tile {
+                width: 280px;
+                margin: 0 auto 15px;
+            }
+        }
+        #testimonials p {
+            margin-left: 100px;
+            font-style: italic;
+        }
+        section {
+            color: white;
+        }
+        .panel-footer {
+            margin-top: 30px;
+            padding-top: 35px;
+            padding-bottom: 30px;
+            background-color: #222;
+            border-top: 0;
+        }
+        .text-center {
+            color: white;
+            margin-top: 20px;
+        }
+        .text-small {
+            font-size: 10px;
+            color: green;
+        }
